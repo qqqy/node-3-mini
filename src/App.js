@@ -15,6 +15,16 @@ class App extends Component {
     this.closeHistoryModal = this.closeHistoryModal.bind(this);
   }
 
+  
+  componentDidMount() {
+    //create request here
+  }
+
+  createMessage() {
+    //create request here
+  }
+  
+
   saveUsername() {
     if (this.state.username) {
       this.setState({ messageInputDisabled: !this.state.messageInputDisabled });
